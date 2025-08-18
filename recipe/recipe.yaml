@@ -1,6 +1,6 @@
 context:
   name: cargo-machete
-  version: "0.9.0"
+  version: "0.9.1"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/bnjbvr/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 8753d0c7f914c30ca15c56a4dc9f7df2cb2f9bb35b89f9f1296378fc8a8c45f7
+  sha256: 9f4b8267c98f24454f133c7baa7a395e5c01d8bc87cfe843c1e0022f76244578
 
 build:
   number: 0
